@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@media (max-width: 768px) {
+    .outline-none {
+      width: 100%; 
+    }
+  }
+  .container {
+    max-width: 1500px; 
+    margin: 0 auto;    
+  }
+  img {
+    width: 100%; /* Genişliği %100 olarak ayarla */
+    height: auto; /* Yüksekliği otomatik olarak ayarla, oranı koru */
+  }
