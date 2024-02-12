@@ -9,7 +9,7 @@ export interface OptionsAttribute {
 interface OptionsProps {
   attributes: OptionsAttribute[];
   onValueSelect: (attribute: OptionsAttribute) => void;
-  onClick: (e:React.MouseEvent<HTMLButtonElement>) => void;
+  onClick?: (e:React.MouseEvent<HTMLButtonElement>) => void;
   outline ? : boolean;
   disabled ? : boolean;
 }
